@@ -63,13 +63,13 @@ body {
 }
 
 .menu-section {
-  min-height: 1200px;
+  min-height: 700px;
   padding: 10px 15px;
   margin-bottom: 30px;
   background-color: #999;
 }
 
-.menu-section h2 {
+.menu-section h3 {
   margin: 0 0 15px;
   font-size: 24px;
   font-weight: bold;
@@ -82,7 +82,12 @@ body {
 
 @media (max-width: 767px) {
   #main-content {
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
   }
+}
+
+.menu-section a {
+  color: #003b70;
+  text-decoration: underline;
 }
